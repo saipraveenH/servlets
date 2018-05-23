@@ -33,7 +33,7 @@ public class FirstServlet implements Servlet {
 	@Override
 	public void init(ServletConfig config) throws ServletException {
 		this.config = config;
-		System.out.println("Initializing servlet....");
+		System.out.println("Initializing First servlet....");
 	}
 
 	@Override
