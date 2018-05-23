@@ -41,7 +41,7 @@ public class FirstServlet implements Servlet {
 		res.setContentType("text/html");
 		PrintWriter out = res.getWriter();
 		out.print("<html><body>");
-		out.print("<b>Hello World simple servlet</b>");
+		out.print("<b>Hello World Servlet</b>");
 		out.print("</body></html>");
 
 	}
