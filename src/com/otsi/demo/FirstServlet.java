@@ -21,6 +21,7 @@ public class FirstServlet implements Servlet {
 	@Override
 	public ServletConfig getServletConfig() {
 		// TODO Auto-generated method stub
+		System.out.println("Getting servlet Info");
 		return config;
 	}
 
