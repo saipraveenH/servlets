@@ -14,7 +14,7 @@ public class FirstServlet implements Servlet {
 
 	@Override
 	public void destroy() {
-		System.out.println("servlet destroyed");
+		System.out.println("Servlet destroyed");
 
 	}
 
